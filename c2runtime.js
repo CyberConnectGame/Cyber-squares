@@ -26440,12 +26440,12 @@ cr.behaviors.wrap = function(runtime)
 	};
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Browser,
 	cr.plugins_.Audio,
+	cr.plugins_.Browser,
 	cr.plugins_.LocalStorage,
-	cr.plugins_.Sprite,
-	cr.plugins_.Touch,
 	cr.plugins_.Text,
+	cr.plugins_.Touch,
+	cr.plugins_.Sprite,
 	cr.behaviors.solid,
 	cr.behaviors.Physics,
 	cr.behaviors.Sin,
